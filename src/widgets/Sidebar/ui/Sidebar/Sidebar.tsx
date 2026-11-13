@@ -2,7 +2,7 @@ import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./Sidebar.module.scss";
 import { useState } from "react";
 import { LangSwitcher } from "widgets/LangSwitcher/LangSwitcher";
-import { ThemeSwitcher } from "widgets/ThemeSwitcher/ThemeSwitcher";
+import { ThemeSwitcher } from "widgets/ThemeSwitcher";
 import { useTranslation } from "react-i18next";
 
 type SidebarProps = {
