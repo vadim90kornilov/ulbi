@@ -11,6 +11,7 @@
     "lint:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "style": "stylelint \"**/*.scss\"",
     "style:fix": "stylelint \"**/*.scss\" --fix",
+    "ts": "tsc --noEmit",
     "test": "jest --config ./config/jest/jest.config.ts",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook"
